@@ -1,0 +1,61 @@
+.header2 {
+    background-image: url("../images/cover2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+    .header2-content {
+      display: flex;
+      justify-content: space-between;
+    
+  
+    &__left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 30px;
+     
+  
+      h1 {
+        font-size: 75px;
+        color: white;
+        margin-bottom: 10px;
+        width: 120px;
+        line-height: 65px;
+      }
+  
+      p {
+        font-size: 20px;
+        color: white;
+        margin-bottom: 20px;
+        width: 500px
+      }
+  
+      button {
+        background-color: #b38c47;
+        color: white;
+        padding: 10px 30px;
+        border: none;
+        font-size: 12px;
+        cursor: pointer;
+        transition: background-color 0.3s, scale 0.3s, color 0.3s;
+
+        &:hover {
+          background-color: #b38c00;
+          scale: 1.1;
+
+        }
+      }
+    }
+      &__right {
+       img {
+        width: 300px;
+        height: 400px;
+        padding: 3rem;
+        
+       }
+      }
+    
+  }
+  
+  

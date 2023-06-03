@@ -1,0 +1,32 @@
+.heading {
+    margin-top: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.event{
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+
+    @media(max-width: 768px){
+        flex-direction: column;
+    }
+
+    a{
+        display: inline-flex;
+        font-size: 20px;
+        color: #b38c47;
+        transition: transform 0.3s ease;
+
+        &:hover{
+            text-decoration: underline;
+            transform: scale(1.2);
+        }
+      
+    }
+
+    p {
+        font-size: 12px;
+        width: 70%;
+
+    }
+}

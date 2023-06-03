@@ -1,0 +1,22 @@
+.discover-single {
+    img {
+      width: 160%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease-in-out;
+
+      &:hover {
+        transform: scale(1.03);
+      }
+    }
+    h6 {
+        padding: 0;
+        line-height: 1px;
+    }
+
+    span {
+        line-height: 1px;
+        font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,11 @@
+.title {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+.itemss {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 20px;
+}
