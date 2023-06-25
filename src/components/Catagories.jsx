@@ -1,10 +1,10 @@
 import "../styles/Catagories.scss";
-import cocktail from "../images/img2.jpg"
-import cocktail1 from "../images/img3.jpg"
-import cocktail2 from "../images/img4.jpg"
-import cocktail3 from "../images/img5.jpg"
-import cocktail4 from "../images/img6.jpg"
-import cocktail5 from "../images/img7.jpg"
+import cocktail from "../images/img2.jpg";
+import cocktail1 from "../images/img3.jpg";
+import cocktail2 from "../images/img4.jpg";
+import cocktail3 from "../images/img5.jpg";
+import cocktail4 from "../images/img6.jpg";
+import cocktail5 from "../images/img7.jpg";
 const Catagories = () => {
   return (
     <div className="container">
@@ -43,7 +43,6 @@ const Catagories = () => {
           <img src={cocktail5} alt="" />
           <span>Astral Taquila</span>
         </div>
-
       </div>
     </div>
   );

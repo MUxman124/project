@@ -96,9 +96,7 @@ const Footer = () => {
           </svg>
         </div>
       </div>
-     
     </footer>
-    
   );
 };
 

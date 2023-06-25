@@ -11,28 +11,19 @@ const CocktailLounge = () => {
         </div>
         <div className="cocktail-lounge__content">
           <div>
-            <img
-              src={loungeimg1}
-              alt=""
-            />
+            <img src={loungeimg1} alt="" />
             <h4>At Vros eos et + acsumssus</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="/">Read More</a>
           </div>
           <div>
-            <img
-              src={loungeimg2}
-              alt=""
-            />
+            <img src={loungeimg2} alt="" />
             <h4>At Vros eos et + acsumssus</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="/">Read More</a>
           </div>
           <div>
-            <img
-              src={loungeimg3}
-              alt=""
-            />
+            <img src={loungeimg3} alt="" />
             <h4>At Vros eos et + acsumssus</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="/">Read More</a>
